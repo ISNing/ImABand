@@ -1,0 +1,12 @@
+<PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+            app:key="appearance_watch_face_id"
+            app:title="@string/p_appearance_watch_face"
+            app:entries="@array/p_appearance_watch_face_entries"
+            app:entryValues="@array/p_appearance_watch_face_values"
+            app:defaultValue="face_analog"
+            app:useSimpleSummaryProvider="true" app:summary="restart req"/>
+
+</PreferenceScreen>

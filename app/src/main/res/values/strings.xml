@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ImABand</string>
+
+    <!-- Main Activity -->
+    <!-- String "{steps}" will be replaced to the number of steps,
+    and must be used on a TextView in layout of watchface with id main_face_steps-->
+    <string name="main_face_steps_text">Steps: {steps}</string>
+    <!-- String "{heart_rate}" will be replaced to the number of heart rate,
+    and must be used on a TextView in layout of watchface with id main_face_heart_rate-->
+    <string name="main_face_heart_rate_text">HRM: {heart_rate}</string>
+
+
+    <!-- Steps Activity -->
+    <!-- String "{steps}" will be replaced to the number of steps.-->
+    <string name="steps_text">Steps you walked today: {steps}</string>
+
+    <!-- Heart Rate Activity -->
+    <!-- String "{heart_rate}" will be replaced to the number of heart rate.-->
+    <string name="heart_rate_text">Heart Rate: {heart_rate}</string>
+
+    <!-- Settings Activity -->
+    <string name="title_activity_settings">Setting</string>
+
+    <!-- Preference Titles -->
+    <string name="appearance_header">Appearance</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Appearance Preferences -->
+    <string name="p_appearance_watch_face">Watch Face</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

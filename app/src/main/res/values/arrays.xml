@@ -1,0 +1,27 @@
+<resources>
+    <string-array name="main_choices_text">
+        <item>Steps</item>
+        <item>HeartRate</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="main_choices_icon">
+        <item>ic_temp_tes</item>
+        <item>ic_temp_tes</item>
+        <item>ic_temp_tes</item>
+    </string-array>
+    <string-array name="main_choices_activity">
+        <item>io.github.isning.imaband.StepsActivity</item>
+        <item>io.github.isning.imaband.HeartRateActivity</item>
+        <item>io.github.isning.imaband.SettingsActivity</item>
+    </string-array>
+    <!-- Appearance Preference -->
+    <string-array name="p_appearance_watch_face_entries">
+        <item>Analog</item>
+        <item>Digital</item>
+    </string-array>
+
+    <string-array name="p_appearance_watch_face_values">
+        <item>face_analog</item>
+        <item>face_digital</item>
+    </string-array>
+</resources>

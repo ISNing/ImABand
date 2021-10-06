@@ -12,7 +12,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import io.github.isning.imaband.R;
-import org.jetbrains.annotations.NotNull;
 
 /**
  * A {@link Fragment} subclass, used for main page function choosing.
@@ -69,7 +68,7 @@ public class MainChoiceFragment extends Fragment {
     }
 
     @Override
-    public void onViewCreated(@NonNull @NotNull View view, @Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         mContainer = view.findViewById(R.id.frag_main_choice_container);
         mIconView = mContainer.findViewById(R.id.frag_main_choice_icon);

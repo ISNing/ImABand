@@ -16,7 +16,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import io.github.isning.imaband.R;
 import io.github.isning.imaband.misc.Util;
-import org.jetbrains.annotations.NotNull;
 
 import static android.content.Context.SENSOR_SERVICE;
 
@@ -98,7 +97,7 @@ public class WatchFaceFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(@NotNull LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         if (mFaceLayoutId == 0) throw new RuntimeException("mFaceLayoutId must be set");
         // Inflate the layout for this fragment
@@ -106,7 +105,7 @@ public class WatchFaceFragment extends Fragment {
     }
 
     @Override
-    public void onViewCreated(@NonNull @NotNull View view, @Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         mHRMTextView = view.findViewById(R.id.main_face_heart_rate);
         if(mHRMTextView != null) {
